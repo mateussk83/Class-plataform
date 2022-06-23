@@ -3,5 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-zinc-900 text-zinc-100; /*post css*/
+  @apply bg-gray-900 text-gray-100; /*post css*/
+  /*usamos para ajeitar a borda pra ficar mais bonitinho em alguns navegadores */
+  -webkit-font-smothing: antialiased;
 }
