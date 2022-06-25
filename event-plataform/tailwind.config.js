@@ -6,6 +6,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      // eu coloco o background imagem aqui para configurar o tail wind 
+      // quando for colocar alguma url aqui precisamos do url() e colocar o caminho absoluto vindo direto da raiz da aplicação
+      backgroundImage: {
+        blur: 'url(/src/assets/blur-background.png)'
+      },
       fontFamily: {
         // se nao encontra a font Roboto pode usar qualquer outra
         sans: 'Roboto, sans-serif'

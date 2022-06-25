@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# bara usar variaveis locais basta criar o .env.local e adcionar ele aqui 
+.env.local
